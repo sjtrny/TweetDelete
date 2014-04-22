@@ -14,7 +14,7 @@ Dependencies
 User Guide
 -----------
 
-- Download your [Twitter archive](https://twitter.com/settings/account)
+1. Download your [Twitter archive](https://twitter.com/settings/account)
 - Install dependencies (usually only tweepy) e.g.`pip install tweepy`
 - Make a developer account at [dev.twitter.com](http://dev.twitter.com)
 - Create a new twitter app
