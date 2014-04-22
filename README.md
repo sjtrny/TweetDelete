@@ -1,4 +1,6 @@
 TweetDelete
 ===========
 
-Python script to 
+Python script to delete tweets within a date range
+
+
