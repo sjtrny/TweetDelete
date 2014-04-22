@@ -33,6 +33,7 @@ if choice == 'y':
 		f = open(file_name, 'r')
 		f.readline() # clear the first junk line
 		data = json.load(f);
+		data.sort(key=lambda x: x['created_at'])
 		
 		for tweet in data:
 			tweet_date = dateutil.parser.parse(tweet['created_at'])
